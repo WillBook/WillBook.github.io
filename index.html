@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Will Golding | Home</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <!--script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script-->
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      TeX: {
+        equationNumbers: {
+          autoNumber: "AMS"
+        },
+        extensions: [
+          "AMSmath.js",
+          "AMSsymbols.js",
+          "noErrors.js",
+          "noUndefined.js",
+        ]
+      },
+      tex2jax: {
+        inlineMath: [ ['$','$'] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true,
+      },
+      jax: ["input/TeX", "output/CommonHTML"]
+    });
+  </script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/latest.js?config=TeX-AMS_CHTML">
+  </script>  
+</head>
+<body>
+    <header class="header">
+        <div class="header-title">
+          <img src="imgs/Reverse University Logo_1Color_White_RGB.svg" alt="UChicago Logo" class="logo">
+        </div>
+        <div class="name-position">
+          <span class="your-name">Dr. William Golding</span>
+          <span class="your-position">Dickson Instructor, Department of Mathematics</span>
+        </div>
+        <nav class="header-nav">
+            <a class="tab active" href="index.html" data-tab="home">Home</a>
+            <a class="tab" href="#research" data-tab="research">Research</a>
+            <a class="tab" href="#teaching" data-tab="teaching">Teaching</a>
+            <a href="#">CV</a>
+        </nav>
+    </header>
+
+    <main>
+      <section id="home" class="tab-section welcome-container active">
+        <div class="welcome-text">
+          <h1>Welcome </h1>
+          <p>
+            I am currently a postdoc at University of Chicago, interested in the qualitative and quantitative behavior of solutions to differential equations, especially for models arising from <strong>fluid mechanics</strong> and <strong>kinetic theory</strong>.
+          </p>
+          <p>
+            My research focuses on energy methods that can be applied to obtain well-posedness and stability in nonlinear or nonlocal dynamics.
+          </p>
+          <p>
+            Please feel free to contact me with any questions about my work at 
+            <a href="mailto:wgolding@uchicago.edu">wgolding@uchicago.edu</a>.
+          </p>
+          <h2>Ongoing and Upcoming Seminars & Conferences</h2>
+          <p>
+            I am either organizing or planning to attend the following events:
+          </p>
+          <ul>
+            <li>
+              <strong>Calderón-Zygmund Analysis Seminar</strong> (Organizer, 2025-2026) <br>
+              I am organizing the seminar at University of Chicago this year.
+              More information including schedules and past talks can be found
+              <a href="http://math.uchicago.edu/~cz"> here </a>.
+            </li>
+            <li>
+              <strong>SLMath Kinetic Program</strong> (Participant, Fall 2025) <br>
+              I am attending part of the SLMATH special program on kinetic theory this fall. 
+              More details for the program can be found
+              <a href="https://www.slmath.org/programs/357"> here</a>.
+            </li>
+            <li>
+              <strong> BIRS 5-day Workshop</strong> (Organizer, Summer 2026) <br>
+              Along with Dallas Albritton, Maria Gualdani, and Nestor Guillen, I am organizing a 5-day workshop on kinetic theory and fluid mechanics next summer.
+              More details for the workshop can be found
+              <a href="https://www.birs.ca/events/2026/5-day-workshops/26w5611">here</a>.
+            </li>
+            <li>
+              <strong> SwissMap 5-day Workshop</strong> (Participant, Summer 2026) <br>
+              I will be attending a workshop on regularity theory for kinetic equations hosted by the SwissMap Research Station.
+              More details for the workshop can be found 
+              <a href="https://swissmaprs.ch/events/regularity-theory-for-evolution-equations/">here</a>.
+            </li>
+          </ul>
+        </div>
+        <div class="profile-picture">
+          <img src="imgs/profile.jpg" alt="Profile Picture">
+        </div>
+      </section>
+
+        
+      <section id="research" class="tab-section research-container">
+        <div class="section-content">
+        <!-- Place filter and publications HTML here -->
+          <h2>My Research Directions</h2>
+          <div>
+            <strong>Topics:</strong>
+            <span id="subject-tags"></span>
+          </div>
+          <div>
+            <strong>Methods:</strong>
+            <span id="method-tags"></span>
+          </div>
+          <div id="publications-list"></div>
+          </div>
+        </section>
+
+      
+      <section id="teaching" class="tab-section teaching-container">
+        <div class="section-content">
+          <h1>Teaching</h1>
+          <p>
+            My goal as an instructor is to create a supportive and rigorous environment where students build strong foundations in mathematical reasoning and problem solving. I emphasize intuitive understanding, active learning, and the connections between theory and real-world phenomena.
+          </p>
+  
+          <h2>Current & Recent Courses</h2>
+          <ul>
+            <li>
+              <strong>Analysis I–II (Math 20200/20300)</strong>, University of Chicago, 2023–24<br>
+              Advanced undergraduate analysis, including sequences, series, limits, continuity, and an introduction to measure theory.
+            </li>
+            <li>
+              <strong>Partial Differential Equations (Math 20600)</strong>, University of Chicago, 2022–23<br>
+              Topics in linear and nonlinear PDEs, boundary value problems, and applications to physics.
+            </li>
+            <li>
+              <strong>Calculus I–II (Math 15100/15200)</strong>, Princeton University, 2021<br>
+              Introduction to calculus concepts, techniques, and their applications for undergraduates in STEM disciplines.
+            </li>
+          </ul>
+  
+          <p>
+            If you have questions about my courses or teaching materials, please <a href="mailto:wgolding@uchicago.edu">contact me</a>.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
