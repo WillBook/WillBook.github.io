@@ -1,0 +1,39 @@
+{
+  "about": {
+    "text": "I am an Assistant Professor of Mathematics at XYZ University. My research interests include PDE, analysis, and mathematical physics."
+  },
+  "publications": [
+    {
+      "title": "A paper on PDE",
+      "authors": "You, Collaborator",
+      "journal": "Annals of Math",
+      "year": 2024,
+      "link": "#"
+    },
+    {
+      "title": "Another paper",
+      "authors": "You",
+      "journal": "JAMS",
+      "year": 2023,
+      "link": "#"
+    }
+  ],
+  "talks": [
+    {
+      "title": "Title of Talk",
+      "event": "Conference Name",
+      "location": "City",
+      "date": "2024-05-12"
+    }
+  ],
+  "teaching": [
+    {
+      "course": "Math 101 – Calculus I",
+      "term": "Fall 2024",
+      "link": "#"
+    }
+  ],
+  "cv": {
+    "file": "cv.pdf"
+  }
+}

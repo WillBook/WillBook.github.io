@@ -1,0 +1,96 @@
+{
+    "teaching": [
+    {
+        "course": ""
+    }
+    ],
+    "publications": [
+    {
+        "title": "Uniqueness Criteria for the Oseen vortex in the 3d Navier-Stokes equations",
+        "authors": "Bedrossian, J.",
+        "journal": "CPDE",
+        "year": 2021,
+        "abstract": "In this paper, we consider the uniqueness of solutions to the 3d Navier-Stokes equations with initial vorticity given by $\\omega_0 = \\alpha e_z \\delta_{x = y = 0}$, where is the one dimensional Hausdorff measure of an infinite, vertical line and is an arbitrary circulation. This initial data corresponds to an idealized, infinite vortex filament. One smooth, mild solution is given by the self-similar Oseen vortex column, which coincides with the heat evolution. Previous work by Germain, Harrop-Griffiths, and the first author implies that this solution is unique within a class of mild solutions that converge to the Oseen vortex in suitable self-similar weighted spaces. In this paper, the uniqueness class of the Oseen vortex is expanded to include any solution that converges to the initial data in a sufficiently strong sense. This gives further evidence in support of the expectation that the Oseen vortex is the only possible mild solution that is identifiable as a vortex filament. The proof is a 3d variation of a 2d compactness/rigidity argument in $t \\searrow 0$ originally due to Gallagher and Gallay.",
+        "arxiv_link": "https://arxiv.org/abs/2004.07302",
+        "doi": "https://doi.org/10.1080/03605302.2020.1870492",
+        "subject_tags": ["Fluid Mechanics"],
+        "method_tags": ["Uniqueness", "Stability"]
+    },
+    {
+        "title": "Existence of smooth solutions to the Landau-Fermi-Dirac equation with Coulomb potential",
+        "authors": "Gualdani, M. and Zamponi, N.",
+        "journal": "CMS",
+        "year": 2022,
+        "abstract": "In this paper, we prove global-in-time existence and uniqueness of smooth solutions to the homogeneous Landau-Fermi-Dirac equation with Coulomb potential. The initial conditions are nonnegative, bounded and integrable. We also show that any weak solution converges towards the steady state given by the Fermi-Dirac statistics. Furthermore, the convergence is algebraic, provided that the initial datum is close to the steady state in a suitable weighted Lebesgue norm.",
+        "arxiv_link": "https://arxiv.org/abs/2107.10463",
+        "doi": "https://dx.doi.org/10.4310/CMS.2022.v20.n8.a7",
+        "subject_tags": ["Kinetic Theory"],
+        "method_tags": ["Existence", "Regularity", "Uniqueness"]
+    },
+    {
+        "title": "Sharp a-contraction estimates for small extremal shocks",
+        "authors": "Krupa, S. and Vasseur, A.",
+        "journal": "JHDE",
+        "year": 2023,
+        "abstract": "In this paper, we study the a-contraction property of small extremal shocks for 1-d systems of hyperbolic conservation laws endowed with a single convex entropy, when subjected to large perturbations. We show that the weight coefficient a can be chosen with amplitude proportional to the size of the shock. The main result of this paper is a key building block in the <a \"href = https://doi.org/10.1007/s00205-022-01813-0\">companion paper</a>, in which uniqueness and BV-weak stability results for $2\\times 2$ systems of hyperbolic conservation laws are proved.",
+        "arxiv_link": "https://arxiv.org/abs/2012.09261",
+        "doi": "https://doi.org/10.1142/S0219891623500170",
+        "subject_tags": ["Fluid Mechanics"],
+        "method_tags": ["Stability", "Long Time Behavior"]
+    },
+    {
+        "title": "Local-in-time strong solutions of the homogeneous Landau-Coulomb equation with $L^p$ initial datum",
+        "authors": "Loher, A.",
+        "journal": "La Matematica",
+        "year": 2024,
+        "abstract": "We consider the homogeneous Landau equation with Coulomb potential and general initial data $f_{in}\\in L^p$, where p is arbitrarily close to 3/2. We show the local-in-time existence and uniqueness of smooth solutions for such initial data. The constraint $p>3/2$ has appeared in several related works and appears to be the minimal integrability assumption achievable with current techniques. We adapt recent ODE methods and conditional regularity results appearing in [arXiv:2303.02281] to deduce new short time $L^p\\to L^\\infty$ smoothing estimates. These estimates enable us to construct local-in-time smooth solutions for large Lp initial data, and allow us to show directly conditional regularity results for solutions verifying <em>unweighted</em> Prodi-Serrin type conditions. As a consequence, we obtain additional stability and uniqueness results for the solutions we construct.",
+        "arxiv_link": "https://arxiv.org/abs/2308.10288",
+        "doi": "https://doi.org/10.1007/s44007-024-00088-z",
+        "subject_tags": ["Kinetic Theory"],
+        "method_tags": ["Regularity", "Uniqueness", "Existence"]
+    },
+    {
+        "title": "Nonlinear asymptotic stability in $L^\\infty$ for Lipschitz solutions to scalar conservation laws",
+        "year": 2024,
+        "journal": "CRAS",
+        "abstract": "In this note, we show nonlinear stability in $L^\\infty$ for Lipschitz solutions to genuinely nonlinear, multi-dimensional scalar conservation laws. As an application, we are able to compute explicit algebraic decay rates of the $L^\\infty$ norm of perturbations of global-in-time Lipschitz solutions, including perturbations of planar rarefaction waves. Our analysis uses the De Giorgi method applied to the kinetic formulation and is an extension of the method introduced recently by Silvestre in [Comm. Pure Appl. Math., 72(6):1321-1348, 2019].",
+        "arxiv_link": "https://arxiv.org/abs/2303.04950",
+        "doi": "https://doi.org/10.5802/crmath.553",
+        "subject_tags": ["Fluid Mechanics"],
+        "method_tags": ["Long Time Behavior", "Regularity", "Stability"]
+    },
+    {
+        "title": "Unconditional regularity and trace results for the isentropic Euler equations with $\\gamma = 3$",
+        "authors": "",
+        "year": 2023,
+        "journal": "SIAM SIMA",
+        "abstract": "In this paper, we study the regularity properties of bounded entropy solutions to the isentropic Euler equations with $\\gamma = 3$. First, we use a blow-up technique to obtain a new trace theorem for all such solutions. Second, we use a modified De Giorgi type iteration on the kinetic formulation to show a new partial regularity result on the Riemann invariants. We are able to conclude that in fact for any bounded entropy solution u, the density ρ is almost everywhere upper semicontinuous away from vacuum. To our knowledge, this is the first example of a nonlinear hyperbolic system, which fails to be Temple class, but has the property that generic $L^\\infty$ initial data give rise to bounded entropy solutions with a form of near classical regularity. This provides one example that $2\\times 2$ hyperbolic systems can possess some of the more striking regularizing effects known to hold generically in the genuinely nonlinear, multidimensional scalar setting. While we are not able to use our regularity results to show unconditional uniqueness, the results substantially lower the likelihood that current methods of convex integration can be used in this setting.",
+        "arxiv_link": "https://arxiv.org/abs/2207.05821",
+        "doi": "https://doi.org/10.1137/23M1554667",
+        "subject_tags": ["Fluid Mechanics"],
+        "method_tags": ["Regularity"]
+    },
+    {
+        "title": "Nonlinear regularization estimates and global well-posedness for the Landau-Coulomb equation near equilibrium",
+        "authors": "Gualdani, M. and Loher, A.",
+        "year": 2024,
+        "arxiv_link": "https://arxiv.org/abs/2303.02281",
+        "journal": "SIAM SIMA",
+        "doi": "https://doi.org/10.1137/23M1573951",
+        "abstract": "We consider the Landau equation with Coulomb potential in the spatially homogeneous case. We show short time propagation of smallness in $L^p$ norms for $p>3/2$ and instantaneous regularization in Sobolev spaces. This yields new short time quantitative a priori estimates that are unconditional near equilibrium. We combine these estimates with existing literature on global well-posedness for regular data to extend the well-posedness theory to small $L^p$ data with p arbitrarily close to 3/2. The threshold $p=3/2$ agrees with previous work on conditional regularity for the Landau equation in the far from equilibrium regime. In light of the monotonicity of the Fisher information shown in the recent preprint [arXiv:2311.09420], our primary nonlinear regularization estimate holds even in the far-from-equilibrium regime. As a consequence, we obtain exponential convergence to equilibrium for suitably localized solutions in every Sobolev norm.",
+        "subject_tags": ["Kinetic Theory"],
+        "method_tags": ["Existence", "Long Time Behavior", "Regularity"]
+    },
+    {
+        "title": "Global smooth solutions to the Landau-Coulomb equation in $L^{3/2}$",
+        "authors": "Gualdani, M. and Loher, A.",
+        "journal": "ARMA",
+        "doi": "https://doi.org/10.1007/s00205-025-02107-x",
+        "year": 2025,
+        "arxiv_link": "https://arxiv.org/abs/2401.06939",
+        "abstract": "We consider the homogeneous Landau equation in $\\mathbb{R}^3$ with Coulomb potential and initial data in polynomially weighted $L^{3/2}$. We show that there exists a smooth solution that is bounded for all positive times. The proof is based on short-time regularization estimates for the Fisher information, which, combined with the recent result of Guillen and Silvestre, yields the existence of a global-in-time smooth solution. \\n Additionally, if the initial data belongs to $L^p$ with $p>3/2$, there is a unique solution. At the crux of the result is a new $\\varepsilon$-regularity criterion in the spirit of the Caffarelli-Kohn-Nirenberg theorem: a solution which is small in weighted $L^{3/2}$ is regular. Although the $L^{3/2}$ norm is a critical quantity for the Landau-Coulomb equation, using this norm to measure the regularity of solutions presents significant complications. For instance, the $L^{3/2}$ norm alone is not enough to control the $L^\\infty$ norm of the competing reaction and diffusion coefficients. These analytical challenges caused prior methods relying on the parabolic structure of the Landau-Coulomb to break down. Our new framework is general enough to handle slowly decaying and singular initial data, and provides the first proof of global well-posedness for the Landau-Coulomb equation with rough initial data.",
+        "subject_tags":["Kinetic Theory"],
+        "method_tags":["Existence", "Long Time Behavior", "Regularity", "Uniqueness"]
+    }
+  ]
+}
